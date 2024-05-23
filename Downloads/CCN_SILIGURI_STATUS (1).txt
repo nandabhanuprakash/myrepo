@@ -1,0 +1,11 @@
+# pxname          svname    qcur  qmax  scur   smax   slim  stot   status  weight
+mysql_write       FRONTEND  20    45    40000  4723   OPEN
+cluster_db_write  db01      0     0     1      21     1000  361    UP      1
+cluster_db_write  db02      0     0     10     21     1000  2187   UP      1
+cluster_db_write  db03      0     0     9      24     1000  2181   UP      1
+cluster_db_write  BACKEND   0     0     20     45     4000  4723   UP      3
+httpfront         FRONTEND  58    108   10000  41533  OPEN
+httpback          web1      0     0     0      17     900   43288  UP      1
+httpback          web2      0     0     2      31     900   43426  UP      1
+httpback          BACKEND   0     0     2      38     1000  87524  UP      2
+stats             FRONTEND  0     2     40000  3610   OPEN
